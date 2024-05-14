@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Create Post</title>
+</head>
+<body>
+    <h1>Create Post</h1>
+
+    <form id="post-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+    
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" required></textarea>
+    
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image" required accept="image/*">
+    
+        <button type="submit">Create Post</button>
+        
+    </form>
+    
+    <h3><a href="index.html">exit </a></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
